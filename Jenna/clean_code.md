@@ -1,6 +1,6 @@
-1. Two Sum
-Brute force with 2 loops: O(n^2) runtime, O(1) space
-Hash Table 1 pass: O(n) runtime, O(n) space
+##1. Two Sum
+Brute force with 2 loops: Time Complexity: O(n^2) , Space Complexity: O(1) space
+Hash Table 1 pass: Time Complexity: O(n) runtime, Space Complexity: O(n) space
 ```Javascript
 var twoSum = function(nums, target) {
     let map = {}
@@ -14,7 +14,7 @@ var twoSum = function(nums, target) {
     throw new Error('No two sum')
 };
 ```
-2. Two Sum II -sorted input array
+##2. Two Sum II -sorted input array
 Time Complexity: O(n)
 Space Complexity: O(1)
 ```Javascript
@@ -34,11 +34,11 @@ var twoSum = function(numbers, target) {
     return -1
 };
 ```
-3. Two Sum III – Data structure design
+##3. Two Sum III – Data structure design
 ```Javascript
 Pending
 ```
-4. Valid Palindrome
+##4. Valid Palindrome
 Time Complexity: O(n)
 Space Complexity: O(1)
 ``` Javascript
@@ -71,7 +71,9 @@ var reverseWords = function(s) {
     return wordArr.join(' ')
 };
 ```
-5. Implement strstr()
+##5. Implement strstr()
+Time Complexity: O(nm)  n = length of haystack and m = length of needle
+Space Complexity: O(1)
 ```Javascript
 var strStr = function(haystack, needle) {
     if(needle == ''){
@@ -92,7 +94,7 @@ var strStr = function(haystack, needle) {
     return -1
 };
 ```
-6. Reverse Words in a String
+##6. Reverse Words in a String
 Time Complexity: O(n)
 Space Complexity: O(n)
 ```Javascript
@@ -106,7 +108,7 @@ var reverseWords = function(s) {
     return wordArr.join(' ')
 };
 ```
-7. Reverse Words in a String II
+##7. Reverse Words in a String II
 Challenge 1: Without Split function
 Time Complexity: O(n)
 Space Complexity: O(n) if string mutable would be O(1)
@@ -137,7 +139,7 @@ var reverse = function(s, i, j){
 
 }
 ```
-8. String to Integer (atoi)
+##8. String to Integer (atoi)
 ```Javascript
 var myAtoi = function(s) {
     let result = 0
@@ -171,35 +173,35 @@ var myAtoi = function(s) {
 
 };
 ```
-9. Valid Number
+##9. Valid Number
 ```Javascript
 Pending
 ```
-10. Longest Substring Without Repeating Characters
+##10. Longest Substring Without Repeating Characters
 ```Javascript
 Pending
 ```
-11. Longest Substring with At Most Two Distinct Characters
+##11. Longest Substring with At Most Two Distinct Characters
 ```Javascript
 Pending
 ```
-12. Missing Ranges
+##12. Missing Ranges
 ```Javascript
 Pending
 ```
-13. Longest Palindromic Substring
+##13. Longest Palindromic Substring
 ```Javascript
 Pending
 ```
-14. One Edit Distance
+##14. One Edit Distance
 ```Javascript
 Pending
 ```
-15. Read N Characters Given Read4
+##15. Read N Characters Given Read4
 ```Javascript
 Pending
 ```
-16. Read N Characters Given Read4 – Call multiple times
+##16. Read N Characters Given Read4 – Call multiple times
 ```Javascript
 Pending
 ```
