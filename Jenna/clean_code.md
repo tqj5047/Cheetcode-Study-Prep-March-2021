@@ -1,6 +1,6 @@
 ## Index
-[Array and String](#array-and-string)
-[Linked List ](#linked-list)
+ - [Array and String](#array-and-string)
+ - [Linked List ](#linked-list)
 # Array and String
 ## 1. Two Sum
 Brute force with 2 loops: Time Complexity: O(n^2) , Space Complexity: O(1) space
@@ -294,5 +294,38 @@ Pending
 ```Javascript
 Pending
 ```
-# Linked List of
+# Linked List
 ## 20. Merge Two Sorted Lists
+https://oj.leetcode.com/problems/merge-two-sorted-lists/
+```Javascript
+var mergeTwoLists = function(l1, l2) {
+    //time: O(n + m) n is length of l1, m is length of l2
+    //space: O(n + m) if start a new array. if in place O(1)
+    let head = new ListNode(0, null)
+    let pointTo = head
+    while(l1 && l2){
+        if(l1.val < l2.val){
+            head.next = l1
+            l1 = l1.next
+        } else {
+            head.next = l2
+            l2 = l2.next
+        }
+        head = head.next
+    }
+    if(l1) head.next = l1
+    if(l2) head.next = l2
+    return pointTo.next
+};
+```
+21. Add Two Numbers
+https://oj.leetcode.com/problems/add-two-numbers/
+
+22. Swap Nodes in Pairs
+https://oj.leetcode.com/problems/swap-nodes-in-pairs/
+
+23. Merge K Sorted Linked Lists
+https://oj.leetcode.com/problems/merge-k-sorted-lists/
+
+24. Copy List with Random Pointer
+ https://oj.leetcode.com/problems/copy-list-with-random-pointer/
