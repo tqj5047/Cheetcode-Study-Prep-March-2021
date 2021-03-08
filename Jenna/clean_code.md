@@ -1,5 +1,5 @@
 ## Index
-(#arry-and-string)
+(#array-and-string)
 #linked-list
 # Array and String
 ## 1. Two Sum
