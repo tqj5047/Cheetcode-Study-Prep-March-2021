@@ -1,6 +1,6 @@
 ## Index
-(#array-and-string)
-#linked-list
+[Array and String](#array-and-string)
+[Linked List ](#linked-list)
 # Array and String
 ## 1. Two Sum
 Brute force with 2 loops: Time Complexity: O(n^2) , Space Complexity: O(1) space
